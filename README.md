@@ -41,7 +41,7 @@ cd AUTHENTICATION
 #### 2. Install Dependencies
 ##### Backend
 ```sh
-cd server  # Navigate to the backend folder
+cd api  # Navigate to the backend folder
 npm install
 ```
 
@@ -60,8 +60,8 @@ mongod --dbpath /your/mongo/data/path
 
 ##### Start the Backend Server
 ```sh
-cd server
-node index.js
+cd api
+node server.js
 ```
 
 ##### Start the Frontend
